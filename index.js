@@ -12,3 +12,4 @@ console.log("Redicecting to video n°", videoNumber, url);
 if (url) {
     document.location.href = url;
 }
+//https://florentquienne42.github.io/redirections_qr_escalade/?video=
