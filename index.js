@@ -4,7 +4,8 @@ const parameters = new URLSearchParams(queryString);
 const videoNumber = +parameters.get('video');
 const videos = [
     "https://www.youtube.com/watch?v=fw8FVpNfh1M",
-    "https://www.youtube.com/watch?v=8K2hoP3HojM"
+    "https://www.youtube.com/watch?v=8K2hoP3HojM",
+    "https://www.youtube.com/watch?v=4GRhBlqk15c"
 ]
 const url = videos[videoNumber - 1];
 console.log("Redicecting to video n°", videoNumber, url);
